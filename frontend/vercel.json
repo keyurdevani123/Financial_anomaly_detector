@@ -1,0 +1,14 @@
+{
+  "env": {
+    "NEXT_PUBLIC_API_URL": "https://financial-anomaly-backend.onrender.com"
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" }
+      ]
+    }
+  ]
+}
